@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 html{
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 body{
     background: linear-gradient(#01012e, #240019);
     height: 100vh;
     font-family: system-ui, sans-serif;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 section{
     background: url(stars1.png);

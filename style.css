@@ -1,17 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-html{
-    overflow: hidden;
 }
 body{
     background: linear-gradient(#01012e, #240019);
     height: 100vh;
     font-family: system-ui, sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 section{
     background: url(stars1.png);
@@ -88,8 +82,22 @@ ul li:hover::before{
     opacity: 0.5;
     width: 80px;
 }
-@media screen and (max-width: 1920px){
-html{
-    overflow: hidden;
+@media (max-width: 767px){
+    html{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    ul li::after{
+        letter-spacing: 0px;
+        font-size: 50px;
+    }
+    ul li a{
+        letter-spacing: 0;
+    }
 }
+@media (max-width: 300px){
+    ul li::after{
+        letter-spacing: 0px;
+        font-size: 40px;
+    }
 }

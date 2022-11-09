@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 body{
     background: linear-gradient(#01012e, #240019);
     height: 100vh;
     width: 100%;
     font-family: system-ui, sans-serif;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
-
 section{
     background: url(stars1.png);
     height: 100vh;
